@@ -1,0 +1,150 @@
+what is devops ?
+Devops is a tool or technology it's a process of communicating and Collaborating and integrating between the development team and operating team.
+
+WHY DEVOPS: TO DELIVER THE APPLICATION FASTLY.
+
+dev + ops ?
+  
+LINUX COMMANDS:
+1.ls - The most frequently used command in Linux to list directories.
+2.pwd - Print working directory command in Linux.
+3.cd  Linux command to navigate through directories.
+4.mkdir - Command used to create directories in Linux.
+5.mv - Move or rename files in Linux.
+6.cp - Similar usage as mv but for copying files in Linux.
+7.rm - Delete files or directories.
+8.touch - Create blank/empty files.
+9.cat - Display file contents on the terminal.
+10.clear - Clear the terminal display.
+11.echo - Print any text that follows the command.
+12.df - Display disk filesystem information.
+13.chmod - Command to change file permissions.
+14.wget - Direct download files from the internet.
+15.useradd and usermod - Add new user or change existing users data.
+16.passwd - Create or update passwords for existing users.
+17.grep - Search for a string within an output.
+18.ps:-ps command in Linux is used to check the active processes in the terminal.
+whereis:-in Linux is generally used to see the exact location of any command typed after this.(whereis printf)
+19.wc -w:-
+wc command in Linux indicates the number of words.  
+                 wc -w shows the number of words.
+20.wc -l command in Linux indicates the number of lines. 
+           wc -l shows the number of lines.
+21.wc -l command in Linux indicates the number of characters. 
+      wc -m shows the number of characters present in a file.
+
+22. whereis:-  command will output the exact location of any command that you type in after the whereis command.
+                whereis sudo
+         sudo: /usr/bin/sudo /usr/lib/sudo /usr/share/man/man8/sudo.8.gz
+
+23.History
+24.how to know the volume or storage of the server ?
+
+	df -h  ( df --> disk free )
+
+25. How to check the directory or files data ?
+
+	du -sh * ( disk usuage )
+
+26. free -m ( CPU memory data )
+
+27. cal :-command displays a well-presented calendar (cal and cal may 2024 ).
+28.ls -la to show the hidden files
+29.3 options to create a file
+
+	1. touch ---> creating an empty
+
+	2. echo ---> data with the file
+
+	3. editor ---> vim and nano
+
+		a. enter the name
+		b. enter the data into the file
+		c. save the file
+
+		whenever you enter the file, then it will take you to the editor page
+
+	after entering into the editors page, press keyword "i" it will take you the insert mode where you enter the data
+
+		vi FILENAME	              letter "i"
+	CLI -----------------> Editors page -------------> Insert mode
+
+	
+		     keyword "esc"		      press " :wq "
+	Insert mode ----------------> Editors page -----------------> CLI
+
+	:wq ----> write and quit..................................................
+
+GIT:-
+   GIT: GLOBAL INFORMATION TRACKER
+
+   TO STORE THE SOURCE CODE.
+
+   VCS = VERSION CONTROL SYSTEM
+   SCM = SOURCE CODE MANAGEMENT
+
+INTRO:
+    Git is used to track the files.
+     It will maintain multiple versions of the same file.
+     It is platform-independent.
+     It is free and open-source.
+     They can handle larger projects efficiently.
+     It is 3rd generation of vcs.
+     it is written on c programming
+     it came on the year 2005
+
+  (yum=pkg manager, install=action, git=pkg na-y=yes)
+
+yum install git -y	: to install git 
+git init 		: to install local repo (.git)
+
+Note: without local repo (.git) we cant execute commands.
+
+
+1. touch index.html	: create a file
+2. git add		: to track a file
+3. git commit -m "v-1" filename: to commit the file
+3. git status		: to check file is tracked or not
+4. git log 		: to show commits history
+5. git log --oneline	: to show commits history on single line
+6.git branch		: to list the branches
+7.git branch branch_name	: to create a branch
+8.git checkout branch_name: t
+create a repo
+9.git remote add origin https://github.com/rahulchintha16/paytm.git
+The above command will make connetion for my local .git to github
+
+
+10.git push origin master
+
+profile -- > settings -- > developer settings -- > personal access token -- > create -- > classic
+generate new token -- > classic -- > name: -- > 6 options -- > generate
+
+11.GIT MERGE: used to add the files from one branch to another.
+branch-1 is having 5 files and branch-2 is having 10 files
+git checkout branch-1
+git merge branch-2
+now you can get all files from branch-2 to branch-1
+12.git config user.name "sai0"
+git config user.email "sai@gmail.com"
+
+13.git show:
+used to show the number of files attached for a commit
+git log --online
+git show commit id
+
+14.GIT MERGE CONFLICTS:
+WHEN we try to merge the code from two different branches and we have a common file then conflicts will happen.
+how to resolve: Manually
+
+15.GIT FORK: USED TO GET THE OTHER PEOPLE'S REPOS TO OUR GITHUB ACCOUNT.
+
+
+16.git branch -m old new	: to rename a branch
+17.git brahc -D master	: to delete master branch
+
+
+
+
+
+
